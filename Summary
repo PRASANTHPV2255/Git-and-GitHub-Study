@@ -16,3 +16,13 @@
   git checkout <commit id||branchName> <filename||folder>
   git checkout <commit id||branchName> .
   git commit -m "message"
+
+<>alias
+  it used to create shotcuts
+
+  command:git config --global alias. <add anythink> "command"
+
+  example 1:git config --global alias.s "status"
+    now we can use "git s" instead to "git status"
+  example 2:git config --global alias.la "log --all"
+    now we can use "git la" instead of "git log --all"

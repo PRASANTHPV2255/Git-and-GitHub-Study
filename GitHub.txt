@@ -1,0 +1,16 @@
+
+Threre are two king of repository
+  1.local repository
+    local=refers to things our computer
+  2.Remote repository
+    remote=refers to things that are online
+
+
+<>Push code to gitHub repositary
+  git push origin <branch name(master)>
+
+
+<>Shortcut for push command
+  git push origin master --set-upstream
+
+  after this command then,we want to push the code in to git run only git push

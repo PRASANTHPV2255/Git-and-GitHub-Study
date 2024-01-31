@@ -11,6 +11,9 @@
 
   *Git is version history for code
 
+  <>Repositary
+     Repositary mean a folder that is being tracked by git
+
   <>USE OF Git
     1.Tracking history
      It will show the changes what we made in the code,it will show the previous and updated code
@@ -99,12 +102,35 @@ Git Commands
     This commend is used to resore the previous version content.
     example:git checkout 4292a672a903414fff856c245efd68f78fe4d3b7 .
 
+  13.rm -rf .git
+    the rm -rf command basically remove this .git folder and everything inside the folder.
+
+  14.git branch "branch name"
+    To create a new branch.
+    If we checkout the branch and change the code in this brach,the diffrence not applied in the master branch.last we need to merge the branch.
+
+  15.git branch
+    This command will shows all branches in the repositary,and it will also show which branch we currently working.
+
+  16.git diff
+    This will show what we changed or added the previous file.
+
+  17.git merge <branchName>
+    it will merge the branch in to main brach.
+
+  18.git stash
+    git stash command will wipe out all changes we made in the file.
+
+
 
 <>HEAD and MASTER
-  *HEAD:will show as which version are currently viewing or working,
+  *HEAD:it will show as which version are currently viewing or working
+    "what is my repo currently pointing at",
     which version(commit) Id we currently working on,the head will move to that commit id.
-  *MASTER:master will stand on the latest commit Id.
-     back to master:git checkout master
+  *MASTER:the name of the default branch that git creates for you 
+    when first creating a repo.
+    master will stand on the latest commit Id.
+    back to master:git checkout master
 
 
 <>Restore Code
@@ -113,6 +139,23 @@ Git Commands
 
     example:git checkout 4292a672a903414fff856c245efd68f78fe4d3b7 .
     Restore verithing from the previous version.
+
+<>.gitignore
+  if you a file in your personal you dont want to add the file into version history you need to add the file into .gitignore file.after commiting git automaticaly ignore the file.
+
+
+<>Branching
+    if we create a git repositary(branch) default name is master
+
+    *What is the purpose of branching in Git?
+      Branches allow you to work on different parts of a project without impacting the main branch. When the work is complete, a branch can be merged with the main project. You can even switch between branches and work on different projects without them interfering with each other.
+
+<>Merge
+  fast forward merge
+  recursive merge
+
+
+  
 
 
 
