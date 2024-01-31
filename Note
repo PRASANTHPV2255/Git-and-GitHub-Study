@@ -1,0 +1,80 @@
+<>Git (also known as verion controller system)
+  *git is a widly used verion controller system.
+  mercurial,svn
+
+  *Git is a tool we installed in our computer,its work without internet
+
+  *GitHub,GitLab are not a tool these are a server.
+
+  *Git is not build for a specific language,we can use git in every programming language.
+  if we initialize git in one folder git will pin a little or large changes in the folder every time.
+
+  *Git is version history for code
+
+  <>USE OF Git
+    1.Tracking history
+     It will show the changes what we made in the code,it will show the previous and updated code
+
+    2.Collabration
+      Work with more developers and easy to collabrate the code
+
+    3.Backup
+      Git sever will store every project details and source code,we can easly track the code.
+    
+    4.Multiple features
+      we can do multiple task
+      like frontEnd and backend
+
+    5.Status Tracking
+      we can track every line of code and what changes are we made in the code,we can easly track.
+
+      if made any mistake in the code and we cant find whare we made a mistake.useing git we can  easly track the mistake we made and we can easly solve it, like we can switch the code into orginal code(privious code).
+
+
+There are two type of version controll system
+  1.CVCS(Centralized vcs)
+  2.DVCS(Distributed vcs)
+
+  1.CVCS(examples:GitHub,getLab.. etc)
+    There is centralized server where we create a versions.in this case we need a full time internet connection.
+
+  2.DVCS(git)
+    it is a distribute vcs.we dont need to server to use this vcs.
+
+
+Git Commands
+    ls(windows:dir) = list the file and folder in the current folder
+  1.git init
+    This command used to initialize git into this project
+    ls -al
+
+  2.git status
+   This command will show what is going on in the folder
+
+  3.git add filename
+    This command add the file into git
+    OR
+    git add .
+    It will add to git all the file and folder in the current folder.
+
+  4.git commit -m "message"
+    -m(means message) is used to write a message
+    This command is used to create a version.
+    examaple: git commit -m "first commit"
+
+  5.git log  
+    git log is used to find how many commit are we made,this command will shows full commit details.
+    (git log --all) to get all commit
+
+  6.git checkout <40 digit commit id>
+    This command is used to visit to vertions.
+    if we want to checkout the previous version we can easly check using this command
+
+    Example:git checkout be9a9774536492d0abebf6b00dc6a2303e747c78
+
+
+<>HEAD and MASTER
+  *HEAD:which commit Id we working on,the head will move to that commit id
+  *MASTER:master will stand on the latest commit Id
+
+
