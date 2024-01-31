@@ -1,0 +1,18 @@
+1.Create a verion
+  git init : creates a new Git repository
+  git status : to display the state of the repository and staging area
+  git add . : adds a change in the working directory to the staging area
+  git commit -m "message" : create a version and version name.
+
+
+2.View previuos version
+  git log : displays committed snapshots
+  git log --all : To see all the commit we performed
+  git log --all --graph : It will show the branching details
+  git checkout <commit id> : View the privious versions
+  git checkout <branchName>
+
+3.Restore to Previous version
+  git checkout <commit id||branchName> <filename||folder>
+  git checkout <commit id||branchName> .
+  git commit -m "message"

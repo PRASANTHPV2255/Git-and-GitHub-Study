@@ -95,12 +95,25 @@ Git Commands
   11.git checkout master
     This comment will direct us to lates commit of the branch.
 
+  12.git checkout version id(commit id) fileName or .
+    This commend is used to resore the previous version content.
+    example:git checkout 4292a672a903414fff856c245efd68f78fe4d3b7 .
+
 
 <>HEAD and MASTER
   *HEAD:will show as which version are currently viewing or working,
     which version(commit) Id we currently working on,the head will move to that commit id.
   *MASTER:master will stand on the latest commit Id.
      back to master:git checkout master
+
+
+<>Restore Code
+  git checkout version id(commit id) fileName or .
+    This commend is used to resore the previous version code or content.
+
+    example:git checkout 4292a672a903414fff856c245efd68f78fe4d3b7 .
+    Restore verithing from the previous version.
+
 
 
 
