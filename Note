@@ -54,7 +54,7 @@ Git Commands
   3.git add filename
     This command add the file into git
     OR
-    git add .
+    git add . (. shown as the current folder)
     It will add to git all the file and folder in the current folder.
 
   4.git commit -m "message"
@@ -72,9 +72,26 @@ Git Commands
 
     Example:git checkout be9a9774536492d0abebf6b00dc6a2303e747c78
 
+  7.git commit -m "pervious version name" --amend
+    Instead of creating a new commit(version) these changes are just going to go in the previous commit.
+
+  8.git reset filename or foldername
+    OR
+    git reset . (. show current folder)
+    we want take the changes from staging area and put the changes back to working area(working area name is changes),we use git reset.
+
+  9.git checkout -- filename
+     We need to reset the changes from the working area(changes),we want to remove the changes we made.
+    OR
+      git checkout -- .
+      it will remove all changed file from working area
+   
+
 
 <>HEAD and MASTER
   *HEAD:which commit Id we working on,the head will move to that commit id
   *MASTER:master will stand on the latest commit Id
+     back to master:git checkout master
+
 
 
