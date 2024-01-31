@@ -64,7 +64,10 @@ Git Commands
 
   5.git log  
     git log is used to find how many commit are we made,this command will shows full commit details.
-    (git log --all) to get all commit
+
+    *git log:only shows current commit as well as all the commit behind the current commit not any commit infront of it. 
+
+    *git log --all:to get all commit current commit and all other commit are we made.
 
   6.git checkout <40 digit commit id>
     This command is used to visit to vertions.
@@ -85,12 +88,18 @@ Git Commands
     OR
       git checkout -- .
       it will remove all changed file from working area
-   
+  
+  10.git log --all --graph
+    It will start showing you the branging effect.
+
+  11.git checkout master
+    This comment will direct us to lates commit of the branch.
 
 
 <>HEAD and MASTER
-  *HEAD:which commit Id we working on,the head will move to that commit id
-  *MASTER:master will stand on the latest commit Id
+  *HEAD:will show as which version are currently viewing or working,
+    which version(commit) Id we currently working on,the head will move to that commit id.
+  *MASTER:master will stand on the latest commit Id.
      back to master:git checkout master
 
 
