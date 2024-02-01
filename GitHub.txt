@@ -9,8 +9,26 @@ Threre are two king of repository
 <>Push code to gitHub repositary
   git push origin <branch name(master)>
 
+  if you commit the code into previous commit,github will not allow to push,if you want to push use -f:'force push'.
+
+  example:git push origin master -f
+
+  it will overwrite the commit and push the commit into remote repositary,
+
+
 
 <>Shortcut for push command
   git push origin master --set-upstream
 
   after this command then,we want to push the code in to git run only git push
+
+1.Create an online backup
+  git remote add origin <url>
+  git push origin <branch>
+
+2.sync computer to=> gitHub
+  git push origin <branch>
+  git push origin <branch> -f
+
+3.sync gitHub back to=>computer
+  git pull origin <branch>
